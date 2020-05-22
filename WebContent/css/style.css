@@ -1,0 +1,171 @@
+@CHARSET "UTF-8";
+
+body {
+  color: #333333;
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, "MS PGothic", Helvetica,
+    Arial, sans-serif;
+}
+
+#header {
+  width: 95%;
+  height: 50px;
+  font-size: 30px;
+  padding-Top: 15px;
+  color: #000;
+  background: white;
+}
+
+#content {
+  width: 94%;
+  margin-top: 15px;
+  padding-left: 3%;
+}
+
+h1 {
+  width: 94%;
+  padding-top: 17px;
+  padding-left: 4%;
+  font-size: 15px;
+  color: #eeeeee;
+}
+
+h2 {
+  font-size: 22px;
+  padding-left: 2%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+h3.new {
+  padding-left: 1%;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 3%;
+}
+
+p.show {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 0%;
+}
+
+a {
+  text-decoration: underline;
+  color: #24738e;
+  font-style: oblique;
+}
+
+table, tr, th, td {
+  border: 1px solid #cccccc;
+}
+
+table { {
+  width: 100%;
+}
+
+table-layout
+:
+
+fixed
+;
+
+
+}
+th {
+  width: 20%;
+  padding: 10px 2%;
+}
+
+td {
+  width: 60%;
+  padding: 10px 2%;
+}
+
+button.form {
+  font-size: 14px;
+  padding: 1px 7px;
+  border-radius: 10%;
+}
+
+#footer {
+  text-align: left;
+  padding-left: 6%;
+  margin-top: 30px;
+  font-size: 8px;
+}
+
+ul.index {
+  position: relative;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.index li {
+  padding: 0.5em 0.5em 0.6em 0.5em;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  vertical-align: middle;
+  background: #DDDDDD;
+  border-radius: 20px 0px 0px 20px;
+  color: #000; {
+  width: 100%;
+}
+
+}
+ul.index li::before {
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  margin-right: 8px;
+  width: 1em;
+  height: 1em;
+  background: #fff;
+  border-radius: 50%;
+}
+
+label.form {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 0%;
+}
+
+form.form {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 1%;
+}
+
+#flush_success {
+  padding-top: 10px;
+  padding-left: 1%;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  color: #155724;
+  background-color: #d4edda; {
+  width: 100%;
+}
+
+}
+#flush_error {
+  padding-top: 10px;
+  padding-left: 1%;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  color: #000080;
+  background-color: #FFCCCC; {
+  width: 100%;
+}
+}
